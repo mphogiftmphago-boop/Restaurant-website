@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Cafe - The #1 Healthy Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/quenn logo.png" alt="Breakfast Cafe Logo">
+            </div>
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Welcome to Breakfast Cafe</h1>
+            <p class="hero-subtitle">The #1 Healthy Breakfast Restaurant in Town</p>
+            <p class="hero-text">Fresh ingredients, homemade recipes, perfect start to your day.</p>
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+            <a href="#contact" class="btn btn-secondary">Book a Table</a>
+        </div>
+        <a href="#features" class="scroll-down"></a>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="images/box1.png" alt="Delicious Food Icon">
+                    <h3>Delicious</h3>
+                    <p>Freshly prepared with love and premium ingredients.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/box2.png" alt="Healthy Food Icon">
+                    <h3>Healthy</h3>
+                    <p>Nutritious meals to energize your mornings.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="images/box3.png" alt="Tasty Food Icon">
+                    <h3>Tasty</h3>
+                    <p>Flavors that will keep you coming back.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Breakfast Cafe</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Established in 2020, Breakfast Cafe has been serving the community with the best breakfast options. Our passion for quality ingredients and friendly service makes us the top choice for morning meals.</p>
+                    <div class="stats">
+                        <div class="stat"><span>1000+</span>Happy Customers</div>
+                        <div class="stat"><span>50+</span>Menu Items</div>
+                        <div class="stat"><span>5⭐</span>Rating</div>
+                    </div>
+                </div>
+                <img src="images/header-img.png" alt="Cafe Interior" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="breakfast">Breakfast</button>
+                <button class="tab-btn" data-tab="desserts">Desserts</button>
+                <button class="tab-btn" data-tab="dinner">Dinner</button>
+            </div>
+            <div class="menu-grid" id="breakfast">
+                <div class="menu-item">
+                    <img src="images/food1.jpg.png" alt="Classic Pancakes">
+                    <div class="item-info">
+                        <h4>Classic Pancakes</h4>
+                        <p>Fluffy pancakes with maple syrup.</p>
+                        <span class="price">$9.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food2.jpg.png" alt="Avocado Toast">
+                    <div class="item-info">
+                        <h4>Avocado Toast</h4>
+                        <p>Fresh avocado on sourdough.</p>
+                        <span class="price">$8.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food3.jpg.png" alt="Cheese Omelette">
+                    <div class="item-info">
+                        <h4>Cheese Omelette</h4>
+                        <p>Three eggs with cheddar.</p>
+                        <span class="price">$7.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food4.jpg.png" alt="Breakfast Burrito">
+                    <div class="item-info">
+                        <h4>Breakfast Burrito</h4>
+                        <p>Eggs, bacon, avocado.</p>
+                        <span class="price">$10.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food5.jpg.png" alt="French Toast">
+                    <div class="item-info">
+                        <h4>French Toast</h4>
+                        <p>Cinnamon French toast with berries.</p>
+                        <span class="price">$9.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food6.jpg.png" alt="Eggs Benedict">
+                    <div class="item-info">
+                        <h4>Eggs Benedict</h4>
+                        <p>Poached eggs with hollandaise.</p>
+                        <span class="price">$11.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food7.jpg.png" alt="Breakfast Bowl">
+                    <div class="item-info">
+                        <h4>Breakfast Bowl</h4>
+                        <p>Quinoa, veggies, avocado.</p>
+                        <span class="price">$8.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food8.jpg.png" alt="Smoothie Bowl">
+                    <div class="item-info">
+                        <h4>Smoothie Bowl</h4>
+                        <p>Berry smoothie topped with granola.</p>
+                        <span class="price">$7.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food9.jpg.png" alt="Croissant">
+                    <div class="item-info">
+                        <h4>Almond Croissant</h4>
+                        <p>Fresh baked croissant with almonds.</p>
+                        <span class="price">$4.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-grid hidden" id="desserts">
+                <div class="menu-item">
+                    <img src="images/deserts1.jpg.png" alt="Waffles">
+                    <div class="item-info">
+                        <h4>Belgian Waffles</h4>
+                        <p>Crispy waffles with fruits.</p>
+                        <span class="price">$6.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts2.jpg.png" alt="Fruit Parfait">
+                    <div class="item-info">
+                        <h4>Fruit Parfait</h4>
+                        <p>Layered yogurt with fresh berries.</p>
+                        <span class="price">$5.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts3.jpg.png" alt="Chocolate Mousse">
+                    <div class="item-info">
+                        <h4>Chocolate Mousse</h4>
+                        <p>Rich chocolate delight.</p>
+                        <span class="price">$6.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts4.jpg.png" alt="Cheesecake">
+                    <div class="item-info">
+                        <h4>New York Cheesecake</h4>
+                        <p>Creamy cheesecake slice.</p>
+                        <span class="price">$7.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts5.jpg.png" alt="Tiramisu">
+                    <div class="item-info">
+                        <h4>Tiramisu</h4>
+                        <p>Classic Italian coffee dessert.</p>
+                        <span class="price">$6.75</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts6.jpg.png" alt="Brownie">
+                    <div class="item-info">
+                        <h4>Chocolate Brownie</h4>
+                        <p>Warm brownie with ice cream.</p>
+                        <span class="price">$5.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts7.jpg.png" alt="Ice Cream Sundae">
+                    <div class="item-info">
+                        <h4>Ice Cream Sundae</h4>
+                        <p>Vanilla ice cream with toppings.</p>
+                        <span class="price">$4.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/deserts8.jpg.png" alt="Crepe">
+                    <div class="item-info">
+                        <h4>Nutella Crepe</h4>
+                        <p>Thin crepe with Nutella.</p>
+                        <span class="price">$6.25</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-grid hidden" id="dinner">
+                <div class="menu-item">
+                    <img src="images/food10.jpg.png" alt="Grilled Salmon">
+                    <div class="item-info">
+                        <h4>Grilled Salmon</h4>
+                        <p>Salmon with lemon herb sauce.</p>
+                        <span class="price">$18.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food11.jpg.png" alt="Steak">
+                    <div class="item-info">
+                        <h4>Ribeye Steak</h4>
+                        <p>12oz ribeye with mashed potatoes.</p>
+                        <span class="price">$24.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food12.jpg.png" alt="Pasta">
+                    <div class="item-info">
+                        <h4>Chicken Alfredo</h4>
+                        <p>Creamy pasta with chicken.</p>
+                        <span class="price">$15.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food14.jpg.png" alt="Burger">
+                    <div class="item-info">
+                        <h4>Classic Burger</h4>
+                        <p>Beef patty with fries.</p>
+                        <span class="price">$13.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food15.jpg.png" alt="Salad">
+                    <div class="item-info">
+                        <h4>Caesar Salad</h4>
+                        <p>Romaine, croutons, dressing.</p>
+                        <span class="price">$9.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food16.jpg.png" alt="Pizza">
+                    <div class="item-info">
+                        <h4>Margherita Pizza</h4>
+                        <p>Fresh mozzarella and basil.</p>
+                        <span class="price">$14.50</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/burgar.jpg" alt="Veggie Stir Fry">
+                    <div class="item-info">
+                        <h4>Veggie Stir Fry</h4>
+                        <p>Mixed vegetables with rice.</p>
+                        <span class="price">$12.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food1.jpg.png" alt="Shrimp Tacos">
+                    <div class="item-info">
+                        <h4>Shrimp Tacos</h4>
+                        <p>Grilled shrimp in soft tacos.</p>
+                        <span class="price">$16.99</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="images/food2.jpg.png" alt="Lamb Chops">
+                    <div class="item-info">
+                        <h4>Lamb Chops</h4>
+                        <p>Herb crusted lamb chops.</p>
+                        <span class="price">$22.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Delicious Dishes</h2>
+            <div class="gallery-grid">
+                <img src="images/food5.jpg.png" alt="Dish 1">
+                <img src="images/food6.jpg.png" alt="Dish 2">
+                <img src="images/food7.jpg.png" alt="Dish 3">
+                <img src="images/food8.jpg.png" alt="Dish 4">
+                <img src="images/food9.jpg.png" alt="Dish 5">
+                <img src="images/food10.jpg.png" alt="Dish 6">
+                <img src="images/food11.jpg.png" alt="Dish 7">
+                <img src="images/food12.jpg.png" alt="Dish 8">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Our Chefs</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/chief1.png.png" alt="Chef 1">
+                </div>
+                <div class="team-member">
+                    <img src="images/chief2.png.png" alt="Chef 2">
+                </div>
+                <div class="team-member">
+                    <img src="images/chief3.png.png" alt="Chef 3">
+                </div>
+                <div class="team-member">
+                    <img src="images/chief4.png.png" alt="Chef 4">
+                </div>
+            </div>
+            <div class="offer">
+                <img src="images/offer.png" alt="Special Offer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>123 Cafe Street, Breakfast City</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@breakfastcafe.com</p>
+                    <h4>🕒 Operating Hours</h4>
+                    <ul>
+                        <li>Monday - Friday: 7:00 AM - 10:00 PM</li>
+                        <li>Saturday - Sunday: 8:00 AM - 11:00 PM</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone">
+                    <textarea placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Breakfast Cafe. All rights reserved. | Designed by BLACKBOXAI</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navList = document.querySelector('.nav-list');
+        hamburger.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+
+        // Menu tabs
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const menuGrids = document.querySelectorAll('.menu-grid');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                menuGrids.forEach(grid => grid.classList.add('hidden'));
+                document.getElementById(btn.dataset.tab).classList.remove('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
