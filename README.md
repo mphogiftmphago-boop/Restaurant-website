@@ -6,7 +6,6 @@
 **Course**: BIT0701/ WEDE5020  
 **Institution**: [Rosebank college]  
 
-*(Edit these details as needed)*
 
 ## Project Overview
 This is a fully responsive static website for **Breakfast Cafe**, the #1 healthy breakfast restaurant. It serves as a single-page landing site featuring key sections: Hero/Home with features, About the cafe, interactive Menu (tabbed: Breakfast, Desserts, Dinner), Gallery of dishes, Team/Chefs showcase, and Contact form. Built with HTML5, CSS3, and vanilla JavaScript, it highlights mouthwatering food images, pricing, and special offers. The site is mobile-first, offline-ready, and requires no backend or setup.
