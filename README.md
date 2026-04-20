@@ -1,91 +1,84 @@
 # Breakfast Cafe Website
 
-## Overview
+## Student Information
+**Student Name**: [Mphago Mpho]  
+**Student ID**: [ST10519549]  
+**Course**: BIT0701/ WEDE5020  
+**Institution**: [Rosebank college]  
 
-This is a fully responsive static website for **Breakfast Cafe**, the #1 healthy breakfast restaurant. Features include:
+*(Edit these details as needed)*
 
-- Single-page landing site with sections: Home (Hero + Features), About, Menu (tabbed: Breakfast/Desserts/Dinner), Gallery, Team, Contact
-- Mobile-first responsive design with hamburger menu
-- Interactive menu tabs (JavaScript)
-- Google Fonts (Poppins)
-- High-quality food images for menu and gallery
-- Contact form (frontend only)
-- Sections for chefs/team and special offers
+## Project Overview
+This is a fully responsive static website for **Breakfast Cafe**, the #1 healthy breakfast restaurant. It serves as a single-page landing site featuring key sections: Hero/Home with features, About the cafe, interactive Menu (tabbed: Breakfast, Desserts, Dinner), Gallery of dishes, Team/Chefs showcase, and Contact form. Built with HTML5, CSS3, and vanilla JavaScript, it highlights mouthwatering food images, pricing, and special offers. The site is mobile-first, offline-ready, and requires no backend or setup.
 
-The main entry point is `index.html`, which contains all content. Additional HTML files (e.g., `Home.html`, `About.html`) appear to be partials or development variants of sections.
+Main entry: `index.html`. Additional HTML files are section variants/partials.
 
-## Tech Stack
+## Website Goals and Objectives
+### Goals
+- Create an attractive, user-friendly online presence for Breakfast Cafe to attract customers.
+- Showcase menu items with high-quality images and pricing to drive reservations/bookings.
 
-- **HTML5** - Semantic structure
-- **CSS3** - Custom styles (`style.css`) with flexbox/grid, animations, media queries
-- **Vanilla JavaScript** - (`style.js`) for mobile nav toggle and menu tab switching
-- **Images** - Optimized PNG/JPG in `/images/` (breakfast, desserts, dinner categories)
-- No backend or dependencies required
+### Objectives
+- Ensure full responsiveness across devices (desktop, tablet, mobile) with smooth navigation.
+- Implement interactive features like menu tabs and hamburger menu for better UX.
+- Highlight healthy, delicious breakfast options while promoting dinner/dessert variety.
+- Provide easy contact/reservation paths via form and CTA buttons.
+
+## Key Features and Functionality
+| Section | Description |
+|---------|-------------|
+| **Header/Nav** | Sticky navigation with logo, links (Home, Menu, About, Gallery, Contact), mobile hamburger toggle (JS). |
+| **Hero/Home** | Eye-catching welcome, CTA buttons (View Menu, Book Table). |
+| **Features** | Cards highlighting benefits (Delicious, Healthy, Tasty). |
+| **About** | Cafe story with stats (1000+ customers, 5⭐ rating). |
+| **Menu** | JS-powered tabs:<br>- Breakfast (9 items, e.g., Classic Pancakes R99.99)<br>- Desserts (8 items, e.g., Fruity Desserts R90.75)<br>- Dinner (9 items, e.g., Ribeye Steak R140.85). |
+| **Gallery** | Grid of 8+ food images. |
+| **Team** | 4 chef profiles + special offers banner. |
+| **Contact** | Address, phone (+27 072-132-0439), hours, frontend form, social links. |
+| **Footer** | Copyright info. |
+
+**Tech Stack**:
+- HTML5 (semantic), CSS3 (flexbox/grid, animations, media queries), Vanilla JS (nav/tabs).
+- Google Fonts (Poppins), 50+ optimized images in `/images/` (categorized folders).
+
+**Responsive**: Desktop grids → Mobile stacked/touch-friendly.
+
+## Timeline and Milestones
+| Milestone | Description | Estimated Time |
+|-----------|-------------|----------------|
+| **Week 1** | Wireframes, basic HTML structure (index.html + sections). | 1 week |
+| **Week 2** | CSS styling, responsive design (style.css). | 1 week |
+| **Week 3** | JavaScript functionality (menu tabs, mobile nav in style.js), image integration. | 1 week |
+| **Week 4** | Polish: Gallery/Contact, testing across devices, documentation (README.md). | 1 week |
+| **Complete** | Fully functional site ready for deployment. | 4 weeks total |
 
 ## Quick Start
-
-1. Open `index.html` in any modern web browser (Chrome, Firefox, Edge, etc.)
-2. No installation needed – works offline!
-
-**Windows Command:**
+1. Open `index.html` in a browser.
 ```
 start index.html
 ```
+No dependencies needed!
 
 ## Project Structure
-
 ```
-c:/Users/mphog/OneDrive/Desktop/parts 1/
-├── index.html          # Main landing page (all sections)
-├── Home.html           # Hero + Features section variant
-├── About.html          # About section
-├── Menu.html           # Menu section (tabs)
-├── Contact.html        # Likely Contact section (not read, but inferred)
-├── Gallery.html        # Likely Gallery section
-├── style.css           # All styles (responsive, animations)
-├── style.js            # Nav toggle + menu tabs JS
-└── images/             # 50+ food images (pancakes, steaks, desserts, etc.)
-    ├── Breakfast/
-    ├── Desserts/
-    └── Dinner/
+parts 1/
+├── index.html     # Main page
+├── [Section].html # Partials (Home, About, Menu, etc.)
+├── style.css      # Styles
+├── style.js       # Scripts
+└── images/        # Food photos (Breakfast/, Desserts/, Dinner/)
 ```
-
-## Features
-
-| Section | Description |
-|---------|-------------|
-| **Header/Nav** | Sticky nav with logo, links (Home, Menu, About, Gallery, Contact), mobile hamburger |
-| **Hero** | Welcome title, CTA buttons (View Menu, Book Table) |
-| **Features** | Why choose us? (Delicious, Healthy, Tasty) cards |
-| **About** | Cafe story + stats (1000+ customers, 5⭐ rating) |
-| **Menu** | Tabbed categories:<br>- Breakfast (9 items, e.g., Pancakes R99.99)<br>- Desserts (8 items, e.g., Tiramisu R90.75)<br>- Dinner (9 items, e.g., Ribeye Steak R140.85) |
-| **Gallery** | 8x food image grid |
-| **Team** | 4 chef images + special offer banner |
-| **Contact** | Address, phone (+27 072-132-0439), hours, form, social links |
-| **Footer** | Copyright |
 
 ## Customization
-
-- **Edit content**: Update text/prices in `index.html` sections
-- **Add menu items**: Duplicate `<div class=\"menu-item\">` in relevant tab (`#breakfast`, `#desserts`, `#dinner`)
-- **New images**: Add to `/images/` and reference in HTML
-- **Colors/Styles**: Modify `style.css` (variables at top for easy theming)
-- **JS Features**: Extend `style.js` for form submission, smooth scroll, etc.
-
-## Responsive Design
-
-- Desktop: Full grid layouts
-- Tablet: Adjusted spacing
-- Mobile: Stacked cards, hamburger menu, touch-friendly tabs
-
-## Screenshots
-
-(Preview by opening `index.html`)
+- Edit content/prices in HTML.
+- Add menu items: Copy `.menu-item` divs in tabs.
+- New images: Add to `/images/`, update src.
+- Theme: Edit CSS variables.
+- Extend JS: Form handling, etc.
 
 ## License
-
-MIT License – Feel free to use/modify.
+MIT License.
 
 ---
 
-⭐ **Enjoy your visit to Breakfast Cafe!** 🍳🥞
+⭐ Breakfast Cafe Website complete! 🍳🥞
