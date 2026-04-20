@@ -45,11 +45,11 @@ Main entry: `index.html`. Additional HTML files are section variants/partials.
 ## Timeline and Milestones
 | Milestone | Description | Estimated Time |
 |-----------|-------------|----------------|
-| **Week 1** | Wireframes, basic HTML structure (index.html + sections). | 1 week |
-| **Week 2** | CSS styling, responsive design (style.css). | 1 week |
-| **Week 3** | JavaScript functionality (menu tabs, mobile nav in style.js), image integration. | 1 week |
-| **Week 4** | Polish: Gallery/Contact, testing across devices, documentation (README.md). | 1 week |
-| **Complete** | Fully functional site ready for deployment. | 4 weeks total |
+| **Week 1-2** | Wireframes, basic HTML structure (index.html + sections). | 1-2 week |
+| **Week 3-4** | CSS styling, responsive design (style.css). | 3-4 week |
+| **Week 5** | JavaScript functionality (menu tabs, mobile nav in style.js), image integration. | 5 week |
+| **Week 6** | Polish: Gallery/Contact, testing across devices, documentation (README.md). | 6 week |
+| **Complete** | Fully functional site ready for deployment. | 6 weeks total |
 
 ## Quick Start
 1. Open `index.html` in a browser.
