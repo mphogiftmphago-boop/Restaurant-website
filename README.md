@@ -33,7 +33,7 @@ Main entry: `index.html`. Additional HTML files are section variants/partials.
 | **Menu** | JS-powered tabs:<br>- Breakfast (9 items, e.g., Classic Pancakes R99.99)<br>- Desserts (8 items, e.g., Fruity Desserts R90.75)<br>- Dinner (9 items, e.g., Ribeye Steak R140.85). |
 | **Gallery** | Grid of 8+ food images. |
 | **Team** | 4 chef profiles + special offers banner. |
-| **Contact** | Address, phone (+27 072-132-0439), hours, frontend form, social links. |
+| **Contact** | Address, phone (+27 072-132-0439 / 071-244-4793), hours, frontend form, social links. |
 | **Footer** | Copyright info. |
 
 **Tech Stack**:
