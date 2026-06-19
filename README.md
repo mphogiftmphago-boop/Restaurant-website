@@ -902,5 +902,7 @@ Interactive Elements	Hamburger + Menu Tabs	+Slider, +Modal, +Social Features
 Social Media	None	Full integration
 Reservations	Basic form	Full booking system
 
+![image alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/cd9a12323c76de9dc9996bb5ec3533ca2a752137/Screenshot%202026-06-19%20183829.png)
+
 
 ⭐ La Trattoria - Where every dish tells a story! 🍝🇮🇹
