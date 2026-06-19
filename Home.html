@@ -8,60 +8,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="images/quenn logo.png" alt="Breakfast Cafe Logo">
+    
+    <!-- ========== NAV ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo"><i class="fas fa-utensils"></i> La Trattoria</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#reservations" class="nav-link">Reservations</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
             </div>
-            <nav class="nav" id="main-nav">
-                <ul class="nav-list">
-                    <li><a href="#home" class="nav-link active">Home</a></li>
-                    <li><a href="#menu" class="nav-link">Menu</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
         </div>
-    </header>
+    </nav>
 
-    <!-- Hero Section -->
+    <!-- ========== HERO ========== -->
     <section id="home" class="hero">
-        <div class="container">
-            <h1 class="hero-title">Welcome to Breakfast Cafe</h1>
-            <p class="hero-subtitle">The #1 Healthy Breakfast Restaurant in Town</p>
-            <p class="hero-text">Fresh ingredients, homemade recipes, perfect start to your day.</p>
-            <a href="#menu" class="btn btn-primary">View Menu</a>
-            <a href="#contact" class="btn btn-secondary">Book a Table</a>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">La Trattoria</h1>
+            <p class="hero-subtitle">Authentic Italian Cuisine • Warm Hospitality • Unforgettable Moments</p>
+            <a href="#reservations" class="btn btn-primary">Reserve a Table</a>
         </div>
-        <a href="#features" class="scroll-down"></a>
     </section>
 
-    <!-- Features -->
-    <section id="features" class="features">
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="about section-padding">
         <div class="container">
-            <h2 class="section-title">Why Choose Us?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <img src="images/box1.png" alt="Delicious Food Icon">
-                    <h3>Delicious</h3>
-                    <p>Freshly prepared with love and premium ingredients.</p>
+            <div class="section-header">
+                <span class="section-tag">Our Story</span>
+                <h2 class="section-title">About La Trattoria</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-story">
+                        Founded in 2010, La Trattoria brings the heart of Tuscany to your table.
+                        Our recipes have been passed down through generations, each dish crafted
+                        with love and the finest ingredients.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item"><i class="fas fa-leaf"></i><span>100% Fresh Ingredients</span></div>
+                        <div class="highlight-item"><i class="fas fa-wine-bottle"></i><span>Extensive Wine Cellar</span></div>
+                        <div class="highlight-item"><i class="fas fa-mug-saucer"></i><span>Italian Coffee Experts</span></div>
+                        <div class="highlight-item"><i class="fas fa-star"></i><span>Michelin Recommended</span></div>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <img src="images/box2.png" alt="Healthy Food Icon">
-                    <h3>Healthy</h3>
-                    <p>Nutritious meals to energize your mornings.</p>
-                </div>
-                <div class="feature-card">
-                    <img src="images/box3.png" alt="Tasty Food Icon">
-                    <h3>Tasty</h3>
-                    <p>Flavors that will keep you coming back.</p>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600" alt="Restaurant interior" loading="lazy" />
                 </div>
             </div>
         </div>
