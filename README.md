@@ -913,6 +913,7 @@ Reservations	Basic form	Full booking system
 ![images alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/80ecfb4a07817c5594db28f42448eb82e1d8b773/Screenshot%202026-06-19%20184313.png)
 ![images alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/81503f4ab3fe5cb0e9846783ad7400429e6edbd2/Screenshot%202026-06-19%20184348.png)
 ![images alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/a2f74758b06b3116637bf02ffea4f602f887f10c/Screenshot%202026-06-19%20184404.png)
+![images alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/62dedc935c293136f7f59d7e3dc4fccf5251e49a/Screenshot%202026-06-19%20184420.png)
 ![images alt](
 
 ⭐ La Trattoria - Where every dish tells a story! 🍝🇮🇹
