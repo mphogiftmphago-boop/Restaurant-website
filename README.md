@@ -903,6 +903,16 @@ Social Media	None	Full integration
 Reservations	Basic form	Full booking system
 
 ![image alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/cd9a12323c76de9dc9996bb5ec3533ca2a752137/Screenshot%202026-06-19%20183829.png)
-
+![images alt](https://github.com/mphogiftmphago-boop/Restaurant-website/blob/198d815bc97b0eab8756bdd9981eb726655ae78b/Screenshot%202026-06-19%20183922.png)
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
+![images alt](
 
 ⭐ La Trattoria - Where every dish tells a story! 🍝🇮🇹
